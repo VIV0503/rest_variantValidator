@@ -4,9 +4,9 @@ Simple rest interface for VariantValidator built using Flask Flask-RESTPlus and 
 
 # Import modules
 from flask import Flask, make_response
-from flask_restplus import Api, Resource, reqparse
-import requests
-from dicttoxml import dicttoxml
+from flask_restx import Api, Resource, reqparse
+#import requests
+#from dicttoxml import dicttoxml
 
 
 # Define the application as a Flask app with the name defined by __name__ (i.e. the name of the current module)
